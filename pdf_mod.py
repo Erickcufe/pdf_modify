@@ -51,7 +51,7 @@ for entry in docs:
     page.mergePage(new_pdf.getPage(0))
     output.addPage(page)
     # finally, write "output" to a real file
-    path_dt = entry + "_" + "FIRMADO"
+    path_dt = entry + "_" + "FIRMADO" + ".pdf"
     outputStream = open(path_dt, "wb")
     output.write(outputStream)
     outputStream.close()
