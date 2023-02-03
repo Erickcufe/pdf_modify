@@ -31,7 +31,9 @@ can.drawString(390, 263, "AUTORIZÓ")
 
 can.drawString(330, 216, "LIC. CHRISTIAN VARGAS AGUILAR")
 
-can.drawString(324,204,"SUBDIRECTOR DE TECNOLOGÍAS DE")
+can.drawString(324, 204,"SUBDIRECTOR DE TECNOLOGÍAS DE")
+
+can.drawString(380, 192, "INFORMACIÓN")
 
 can.save()
 
