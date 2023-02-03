@@ -7,3 +7,4 @@
 
 ```pip install PyPDF2 reportlab ```
 
+```conda env create --name envname --file=python2.7_pdf.yml```
