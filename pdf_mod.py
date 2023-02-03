@@ -12,10 +12,26 @@ packet = StringIO.StringIO()
 #sing2 = str(sing2)
 
 can = canvas.Canvas(packet, pagesize=letter)
-can.setFont('Helvetica-Bold', 12)
-can.drawString(196, 260, "VALIDÓ")
-can.setFont('Helvetica-Bold', 12)
-can.drawString(190, 250, "CESAR CUEVAS FERNÁNDEZ")
+
+# CAMPO DE VALIDÓ
+can.setFont('Helvetica-Bold', 10)
+can.drawString(184, 263, "VALIDÓ")
+
+can.setFont('Helvetica-Bold', 10)
+can.drawString(118, 216, "ING. GLORIA LAURA SEGOVIA CRUZ")
+
+can.setFont('Helvetica-Bold', 10)
+can.drawString(116, 204, "GERENTE DE INFRAESTRUCTURA DE")
+
+can.setFont('Helvetica-Bold', 10)
+can.drawString(122, 192, "TECNOLOGÍAS DE INFORMACIÓN")
+
+# CAMPO DE AUTORIZÓ
+can.drawString(390, 263, "AUTORIZÓ")
+
+can.drawString(330, 216, "LIC. CHRISTIAN VARGAS AGUILAR")
+
+can.drawString(324,204,"SUBDIRECTOR DE TECNOLOGÍAS DE")
 
 can.save()
 
@@ -23,6 +39,7 @@ can.save()
 packet.seek(0)
 new_pdf = PdfFileReader(packet)
 # read your existing PDFs
+#path_pdf = input("Pon el PATH o ruta de la carpeta donde se encuentran tus PDFs:")
 docs = os.listdir("pdfs_firmar")
 for entry in docs:
     path_pdf = "pdfs_firmar/" + entry
