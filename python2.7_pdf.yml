@@ -1,0 +1,45 @@
+name: python2.7_pdf
+channels:
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=5.1=1_gnu
+  - backports=1.1=pyhd3eb1b0_0
+  - backports.shutil_get_terminal_size=1.0.0=pyhd3eb1b0_3
+  - ca-certificates=2023.01.10=h06a4308_0
+  - certifi=2020.6.20=pyhd3eb1b0_3
+  - decorator=5.1.0=pyhd3eb1b0_0
+  - enum34=1.1.6=py27_1
+  - ipython=5.8.0=py27_0
+  - ipython_genutils=0.2.0=pyhd3eb1b0_1
+  - libedit=3.1=heed3624_0
+  - libffi=3.2.1=hf484d3e_1007
+  - libgcc-ng=11.2.0=h1234567_1
+  - libgomp=11.2.0=h1234567_1
+  - libstdcxx-ng=11.2.0=h1234567_1
+  - ncurses=6.0=h9df7e31_2
+  - openssl=1.0.2u=h7b6447c_0
+  - pathlib2=2.3.5=py27_0
+  - pexpect=4.8.0=pyhd3eb1b0_3
+  - pickleshare=0.7.5=py27_0
+  - pip=19.3.1=py27_0
+  - prompt_toolkit=1.0.15=py27_0
+  - ptyprocess=0.7.0=pyhd3eb1b0_2
+  - pygments=2.5.2=py_0
+  - python=2.7.13=heccc3f1_16
+  - readline=7.0=ha6073c6_4
+  - scandir=1.10.0=pyh5d7bf9c_3
+  - setuptools=44.0.0=py27_0
+  - simplegeneric=0.8.1=py27_2
+  - six=1.16.0=pyhd3eb1b0_1
+  - sqlite=3.23.1=he433501_0
+  - tk=8.6.12=h1ccaba5_0
+  - traitlets=4.3.3=py27_0
+  - wcwidth=0.2.5=pyhd3eb1b0_0
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - zlib=1.2.13=h5eee18b_0
+  - pip:
+    - pillow==6.2.2
+    - pypdf2==1.28.6
+    - reportlab==3.5.59
+prefix: /home/erick/miniconda3/envs/python2.7_pdf
