@@ -18,7 +18,7 @@ can.setFont('Helvetica-Bold', 10)
 can.drawString(184, 263, "VALIDÓ")
 
 can.setFont('Helvetica-Bold', 10)
-can.drawString(118, 216, "ING. GLORIA LAURA SEGOVIA CRUZ")
+can.drawString(118, 216, "ING.")
 
 can.setFont('Helvetica-Bold', 10)
 can.drawString(116, 204, "GERENTE DE INFRAESTRUCTURA DE")
@@ -29,7 +29,7 @@ can.drawString(122, 192, "TECNOLOGÍAS DE INFORMACIÓN")
 # CAMPO DE AUTORIZÓ
 can.drawString(390, 263, "AUTORIZÓ")
 
-can.drawString(330, 216, "LIC. CHRISTIAN VARGAS AGUILAR")
+can.drawString(330, 216, "LIC.")
 
 can.drawString(324, 204,"SUBDIRECTOR DE TECNOLOGÍAS DE")
 
