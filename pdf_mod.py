@@ -15,7 +15,7 @@ can = canvas.Canvas(packet, pagesize=letter)
 
 # CAMPO DE VALIDÓ
 can.setFont('Helvetica-Bold', 10)
-can.drawString(184, 263, "VALIDÓ")
+can.drawString(184, 263, "VAL")
 
 can.setFont('Helvetica-Bold', 10)
 can.drawString(118, 216, "ING.")
@@ -27,7 +27,7 @@ can.setFont('Helvetica-Bold', 10)
 can.drawString(122, 192, "TECNOLOGÍAS DE INFORMACIÓN")
 
 # CAMPO DE AUTORIZÓ
-can.drawString(390, 263, "AUTORIZÓ")
+can.drawString(390, 263, "AUT")
 
 can.drawString(330, 216, "LIC.")
 
